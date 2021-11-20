@@ -1,3 +1,3 @@
 FROM directus/directus:latest
-COPY ./extensions/ ./extensions/
+ADD ./extensions ./extensions/
 EXPOSE 8080
